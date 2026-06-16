@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.traininginsight.training.TrainingServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-16T00:23:23" hostname="Amacpro13.local" time="0.097">
+  <properties/>
+  <testcase name="completedRecordWinsWhenEmployeeHasDuplicateTrainingRecordsForSameCourse()" classname="com.traininginsight.training.TrainingServiceTest" time="0.058"/>
+  <testcase name="treatsEmployeeAsCompleteWhenCompletedRecordExists()" classname="com.traininginsight.training.TrainingServiceTest" time="0.008"/>
+  <testcase name="calculatesIncompleteEmployeesForRequiredCourseTargetingAllEmployees()" classname="com.traininginsight.training.TrainingServiceTest" time="0.013"/>
+  <testcase name="calculatesIncompleteEmployeesForRequiredCourseTargetingSpecificDepartment()" classname="com.traininginsight.training.TrainingServiceTest" time="0.007"/>
+  <testcase name="calculatesIncompleteEmployeesForRequiredCourseTargetingNewHires()" classname="com.traininginsight.training.TrainingServiceTest" time="0.007"/>
+  <system-out><![CDATA[2026-06-16T09:23:23.800+09:00  INFO 6870 --- [traininginsight-backend] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.traininginsight.training.TrainingServiceTest]: TrainingServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-16T09:23:23.807+09:00  INFO 6870 --- [traininginsight-backend] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.traininginsight.TrainingInsightApplication for test class com.traininginsight.training.TrainingServiceTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
