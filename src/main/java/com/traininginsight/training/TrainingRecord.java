@@ -41,4 +41,15 @@ public class TrainingRecord {
     private TrainingStatus status;
 
     private LocalDateTime completedAt;
+
+    public TrainingRecord(Employee employee, Course course, TrainingStatus status) {
+        this.employee = employee;
+        this.course = course;
+        updateStatus(status);
+    }
+
+    public void updateStatus(TrainingStatus status) {
+        this.status = status;
+        this.completedAt = status == TrainingStatus.COMPLETED ? LocalDateTime.now() : null;
+    }
 }

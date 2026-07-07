@@ -27,8 +27,8 @@ class TrainingInsightApplicationTests {
 
     @Test
     void sampleDataLoads() {
-        assertThat(employeeRepository.count()).isEqualTo(4);
-        assertThat(courseRepository.count()).isEqualTo(4);
-        assertThat(trainingRecordRepository.count()).isEqualTo(7);
+        assertThat(employeeRepository.count()).isEqualTo(24);
+        assertThat(courseRepository.count()).isEqualTo(13);
+        assertThat(trainingRecordRepository.count()).isEqualTo(124);
     }
 }

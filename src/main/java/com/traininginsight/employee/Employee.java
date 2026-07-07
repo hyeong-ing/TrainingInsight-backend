@@ -11,6 +11,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+// 직원 엔티티
 @Getter
 @Entity
 @Table(name = "employees")
