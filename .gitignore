@@ -1,0 +1,12 @@
+# IntelliJ / IDE
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+out/
+
+# Logs / OS
+*.log
+.DS_Store
